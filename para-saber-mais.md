@@ -21,3 +21,15 @@ Para que fique bem claro, vou deixar este link que explica em detalhes: <https:/
 O GitHub lançou recentemente a opção de ter repositórios privados para projetos com até 3 colaboradores.
 
 O Bitbucket continua sendo uma saída gratuita interessante para projetos com mais colaboradores.
+
+## Ferramentas
+
+Na última aula, nós conhecemos algumas ferramentas que podem nos auxiliar com o controle de versões do nosso código utilizando Git. Isso pode levar ao questionamento: "Será que preciso mesmo aprender os comandos, se há ferramentas visuais que fazem o mesmo trabalho?"
+
+Bom, é verdade que você conseguiria fazer quase todo o trabalho utilizando estas ferramentas, mas também é verdade que nem sempre elas estarão disponíveis.
+
+Em algum momento da sua vida, você precisará acessar um servidor que não possui interface gráfica, ou manter o código de uma máquina que não é sua, logo, não tem suas ferramentas instaladas.
+
+A questão é: em algum momento, você precisará saber como executar o trabalho direto pela linha de comando.
+
+Aprenda a utilizar ferramentas que possam agilizar seu trabalho, mas aprenda a fazer o trabalho sem elas também! ;-)
