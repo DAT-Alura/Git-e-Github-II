@@ -40,3 +40,37 @@ Por que é interessante unir os commits em um único para enviar um pull request
 - __Para que o responsável pela revisão do projeto tenha um único commit a revisar, com todas as alterações necessárias__
 
 > Alternativa correta! Revisar um único commit é bem mais fácil e rápido do que analisar diversos commits que resolvem um problema em comum. Por isso, nestes casos, é interessante utilizar o git rebase -i.
+
+## Aula 2
+
+1 - No último vídeo, vimos como podemos trazer um único commit específico de outra branch para a branch em que estamos trabalhando.
+
+Em que caso faz sentido trazer um commit específico para a branch atual?
+
+- Quando queremos copiar o trabalho do colega
+- __Quando um bug que afeta a branch atual já foi solucionado em outra branch__
+
+> Alternativa correta! Se uma implementação é necessária em sua branch e já foi feita em outra branch, pode fazer sentido trazer um commit específico, utilizando o git cherry-pick.
+
+- Quando queremos fazer o merge commit a commit
+
+2 - No último vídeo, nós utilizamos o git bisect para encontrar determinado ponto na história do código em que alguma alteração foi introduzida. Fizemos isso, informando os estados do commit (se estava "bom" ou "ruim").
+
+Para que o git bisect pode ser útil?
+
+- Encontrar o culpado por um bug
+- Para atualizar a nossa linha do tempo
+- __Para encontrar o commit em que um bug foi introduzido__
+
+> Alternativa correta! Encontrando o exato commit em que determinado bug foi introduzido, podemos revertê-lo ou até mesmo tentar entender o motivo daquele bug ter sido introduzido.
+
+3 - Com o git blame, podemos ver quem é o responsável por cada linha no código.
+
+Para que isso pode ser útil?
+
+- __Para saber para quem perguntar sobre determinado bloco de código que não entendemos__
+
+> Alternativa correta! Com o git blame, nós podemos saber quem é o responsável por determinada linha ou bloco de código que nós não entendemos, e com isso sabemos com quem tirar a dúvida!
+
+- Para encontrar o culpado por um bug
+- Para desfazer uma alteração
