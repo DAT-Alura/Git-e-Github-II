@@ -74,3 +74,27 @@ Para que isso pode ser útil?
 
 - Para encontrar o culpado por um bug
 - Para desfazer uma alteração
+
+## Aula 3
+
+1 - Durante o vídeo, nós visualizamos o nosso log de commits de uma forma um pouco mais visual, onde as diferentes branches são representadas por linhas separadas.
+
+Qual o comando para exibir o log desta forma?
+
+- git log
+- __git log --graph__
+
+> Alternativa correta! Desta forma, uma representação um pouco mais gráfica do log é exibida na linha de comando.
+
+- git log --format
+
+2 - Aprendemos de forma bem resumida sobre a estratégia de organização de branches, chamada Git Flow.
+
+Quais as branches presentes nesta estratégia?
+
+- __Master, Develop, Branches de feature, Branches de Hotfix e Branches de release__
+
+> Alternativa correta! Cada uma das branches tem um propósito bem definido e nos ajudam a manter o nosso controle de versões bem organizado.
+
+- Master e Develop
+- Master, Ticket, Testing, Release
