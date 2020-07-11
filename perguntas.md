@@ -98,3 +98,25 @@ Quais as branches presentes nesta estratégia?
 
 - Master e Develop
 - Master, Ticket, Testing, Release
+
+## Aula 4
+
+1 - Vimos no último vídeo que o Git nos permite, através dos hooks, executar algum código quando determinado evento acontece.
+
+Como podemos escrever um código que será executado em algum evento?
+
+- Criando um código PHP e informando ao Git que o programa é um evento
+- Criando um código Java e informando ao Git que o .jar gerado é um evento
+- __Criando um arquivo Shell Script, onde seu nome representa o evento, dentro da pasta .git/hooks__
+
+> Alternativa correta! Para ver com mais detalhes os possíveis hooks (eventos), confira este site: <https://githooks.com/>.
+
+2 - Na última aula, vimos de forma bem rudimentar como configurar um processo de entrega contínua do nosso código.
+
+Por que chamamos o resultado que alcançamos de entrega contínua?
+
+- Porque estamos sempre entregando o código para o Git gerenciar
+- Porque estamos constantemente entregando novas versões para o repositório remoto
+- __Porque a cada commit (a cada mudança significativa na base de código), podemos fazer um push e entregar o sistema em produção__
+
+> Alternativa correta! Entrega contínua é uma série de práticas que permitem que o código esteja de forma rápida e simples em produção. Tão rápido e simples quanto rodar um ```git push```. Para saber mais sobre o assunto, confira o curso [Integração Contínua: Maturidade e Produtividade no Desenvolvimento de Software](https://cursos.alura.com.br/course/integracao-continua-jenkins) aqui na Alura.
